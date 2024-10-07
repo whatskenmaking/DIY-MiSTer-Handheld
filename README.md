@@ -37,7 +37,7 @@ The DMH-01 is fully functional and playable. It should be noted, however, that t
 - [ ] Screwdriver kit with a small phillips bit and small hex driver bits
 
 ## Parts
-Work in progress...
+Work in progress... links coming soon
 - [ ] QMTech Cyclone V Dev Board w/ built-in SDRAM
 - [ ] 5.5" HDMI Display
 - [ ] SNES Controller
