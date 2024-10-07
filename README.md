@@ -39,22 +39,39 @@ The DMH-01 is fully functional and playable. It should be noted, however, that t
 ## Parts
 Work in progress... links coming soon
 - [ ] QMTech Cyclone V Dev Board w/ built-in SDRAM
-- [ ] 5.5" HDMI Display
-- [ ] SNES Controller
+- [ ] 5.5" HDMI Display ([Amazon](https://www.amazon.com/gp/product/B0CP3DH3LN))
+- [ ] Sacrificial SNES Controller
 - [ ] Arduino Pro Micro
 - [ ] 3A Charge Controller / Boost Converter
 - [ ] LiPo Battery
 - [ ] Stereo Audio Amplifier
-- [ ] Speakers
-- [ ] USB Hub
+- [ ] 1W 8Ohm Speakers ([Amazon](https://www.amazon.com/gp/product/B0BMB195SX))
+- [ ] USB Hub ([Amazon](https://www.amazon.com/dp/B09M3TVSTF))
 - [ ] Female block headers
-- [ ] JST connectors
+- [ ] Female JST connector ([Amazon](https://www.amazon.com/gp/product/B081V5TTYB))
 - [ ] 30 AWG wire
 - [ ] 22 AWG wire
 - [ ] USB-C male connector
 - [ ] USB-A male connector
 - [ ] NFC Reader
 - [ ] 3 Tact Switches
+- [ ] Power Switch
+- [ ] Screws
 
 ## Build Instructions
-Coming soon
+Working progress... Details coming soon
+
+1. Print the case and all the pieces
+2. Install the screen
+3. Install the speakers
+4. Trim down the sacrificial SNES controller
+5. Program the Arduino Pro Micro
+6. Wire up and install the left side buttons
+7. Wire up and install the right side buttons
+8. Install the QMTech bracket
+9. Install and wire up the USB hub
+10. Install and wire up the audio amplifier
+11. Install and wire up the charge controller and power switch
+12. Install the NFC reader
+13. Install the battery
+14. Close up the device
