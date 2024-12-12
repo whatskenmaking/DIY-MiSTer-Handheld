@@ -1,6 +1,8 @@
 # DIY MiSTer Handheld - Model 01 (DMH-01)
 Warning: Before jumping into this project, review the list of known issues and the recommended skillset.
 
+![DIY MiSTer Handheld Model 01](images/dmh-01.JPG)
+
 ## What is the DMH-01?
 This project aspires to be a freely available, open source handheld MiSTer that can be built as a DIY project. I decided to build the initial version of this handheld after acquiring the QMTech Cyclone V dev board with built-in SDRAM module. While running some tests on the board for my QMTech review video, I realized that this dev board is particularly suitable for a handheld MiSTer, due to its inclusion of 128MB of SDRAM and its lower power consumption profile.
 
