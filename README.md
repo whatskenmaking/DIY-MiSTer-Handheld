@@ -24,9 +24,10 @@ The DMH-01 is fully functional and playable. It should be noted, however, that t
 
 ### High Priority Improvements
 * **Battery Indicator**: There is currently no external indicator to give the user the status of the battery. Therefore, when the battery dies, the device just powers off. The charge controller inside the handheld does have LEDs and a status pin for gathering this information, which could be broken out to an LED that's externally facing.
-
+* **Screen Brightness**: There is currently not a way to adjust the brightness of the display. The HDMI display does have brightness adjustment buttons, but they are only accessible when opening up the handheld. The best solution would probably be to just port those buttons out to a set of buttons externally available on the shell.
 
 ### Other Improvements
+* **Headphone Jack**: There is currently no externally accessible headphone jack. I think one could be easily added by porting out the 3.5mm jack on the HDMI display.
 * **Battery Life**: The battery currently used in the device is a 5000mAH Lithium Polymer battery pack, which provides approximately 2.5 hours of gameplay. I do believe that with some redesign of the case, a larger battery pack could be used. Before I added the shoulder buttons, I was able to fit an 8000mAH battery and was getting around 4 hours of play time on a single charge. I also experimented with a 10,000mAH battery pack, but could not make it fit and keep the device footpring reasonable.
 * **Active Cooling**: The current design uses copper heatsinks as a passive cooling solution. I don't have any concern over the device getting hot enough to cause damage, but it does get a bit warm when playing certain cores (such as PSX) for more than 30 minutes. A more efficient heatsink solution or even a fan might be something to consider.
 
@@ -34,23 +35,33 @@ The DMH-01 is fully functional and playable. It should be noted, however, that t
 - [ ] 3D Printer
 - [ ] Soldering Iron
 - [ ] Wire Strippers
-- [ ] Screwdriver kit with a small phillips bit and small hex driver bits
+- [ ] Small phillips screwdriver
+- [ ] Xacto/hobby knife
+- [ ] Abrasive Pen for scraping off solder mask (I prefer steel, but fiberglass will also work)
+- [ ] Hot Glue Gun
+
+## Consumables
+- [ ] Double-sided tape
+- [ ] VHB Tape
+- [ ] 30 AWG solid core wire
+- [ ] 28 AWG stranded wire
+- [ ] Hot glue stick
+- [ ] Solder
+- [ ] Kapton Tape
 
 ## Parts
 Work in progress... links coming soon
 - [ ] QMTech Cyclone V Dev Board w/ built-in SDRAM
 - [ ] 5.5" HDMI Display ([Amazon](https://www.amazon.com/gp/product/B0CP3DH3LN))
-- [ ] Sacrificial SNES Controller
-- [ ] Arduino Pro Micro
+- [ ] Sacrificial SFC Controller
+- [ ] ATMega Pro Micro microcontroller
 - [ ] 3A Charge Controller / Boost Converter
 - [ ] LiPo Battery
 - [ ] Stereo Audio Amplifier
 - [ ] 1W 8Ohm Speakers ([Amazon](https://www.amazon.com/gp/product/B0BMB195SX))
 - [ ] USB Hub ([Amazon](https://www.amazon.com/dp/B09M3TVSTF))
 - [ ] Female block headers
-- [ ] Female JST connector ([Amazon](https://www.amazon.com/gp/product/B081V5TTYB))
-- [ ] 30 AWG wire
-- [ ] 22 AWG wire
+- [ ] JST connectors ([Amazon](https://www.amazon.com/gp/product/B0B2D9ZV3P))
 - [ ] USB-C male connector
 - [ ] USB-A male connector
 - [ ] NFC Reader
@@ -61,13 +72,18 @@ Work in progress... links coming soon
 ## Build Instructions
 Working progress... Details coming soon
 
+
 1. Print the case and all the pieces
+2. Cut down the SFC controller
+3. Prep the controller PCBs
+4. Program the Pro Micro
+4. Assemble the right controller
+
+
 2. Install the screen
 3. Install the speakers
 4. Trim down the sacrificial SNES controller
 5. Program the Arduino Pro Micro
-6. Wire up and install the left side buttons
-7. Wire up and install the right side buttons
 8. Install the QMTech bracket
 9. Install and wire up the USB hub
 10. Install and wire up the audio amplifier
