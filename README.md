@@ -35,3 +35,5 @@ The DMH-01 is fully functional and playable. It should be noted, however, that t
 
 ## Build Instructions
 Step-by-step build instructions are available in the [DMH-01 wiki](https://github.com/whatskenmaking/DIY-MiSTer-Handheld/wiki).
+
+The 3D Models are available at [MakerWorld](https://makerworld.com/en/models/876877) and [Printables](https://www.printables.com/model/1107182-diy-mister-handheld-model-01-dmh-01).
